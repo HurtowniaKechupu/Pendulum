@@ -5,12 +5,12 @@ import random
 import math
 env = gym.make('Pendulum-v0')
 #stałe:
-liczeb_y = 20  # liczebnosc y
-liczeb_x = 20  # liczebnosc x
-liczeb_m = 32  # liczebnosc momentow
-liczeb_r = 24  # liczebnosc reward
+liczeb_y = 10  # liczebnosc y
+liczeb_x = 10  # liczebnosc x
+liczeb_m = 8  # liczebnosc momentow
+liczeb_r = 12  # liczebnosc reward
 
-liczeb_a = 20  # liczebnosc action
+liczeb_a = 4  # liczebnosc action
 
 # Init arbitary values
 q_table = numpy.full((liczeb_x,liczeb_y,liczeb_m,liczeb_a),0)
@@ -51,14 +51,14 @@ for i_episode in range(100):
         old_value = q_table[statey,statex,statem, aprox(action[0],liczeb_a,2)]
         next_max = numpy.max((q_table[q_table[nstatey,nstatex,nstatem]]-10)/5)
 
-
+        reinf = reinf
         # Update the new value
         new_value = (1 - alpha) * old_value + alpha * \
-                    (reward + gamma * next_max)
+                    (reinf + gamma * next_max)
 
         q_table[statey,statex,statem, aprox(action[0],liczeb_a,2)] = new_value
 
-        print(next_state)
+        print(action)
 
         state = next_state
 
