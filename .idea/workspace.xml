@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="42910a27-9396-4b91-a950-43895c66a5a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/pendulum.py" beforeDir="false" afterPath="$PROJECT_DIR$/pendulum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,10 +15,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pendulum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="12" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#1#11#0" expanded="true" />
+                <element signature="e#226#406#0" />
+                <element signature="e#348#415#0" />
               </folding>
             </state>
           </provider>
@@ -233,7 +234,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
@@ -329,10 +330,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pendulum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="12" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#1#11#0" expanded="true" />
+            <element signature="e#226#406#0" />
+            <element signature="e#348#415#0" />
           </folding>
         </state>
       </provider>
